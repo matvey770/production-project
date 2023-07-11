@@ -1,5 +1,5 @@
 import React, { useMemo, useState, FC } from 'react';
-import { LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext } from './ThemeContext';
+import { LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext } from '../lib/ThemeContext';
 
 const defaultTheme = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme || Theme.LIGHT; // получили из localstorage тему, преобразовали с помощью as к типу Theme, если пустой присваиваем LIGHT
 

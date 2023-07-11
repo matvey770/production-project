@@ -10,7 +10,11 @@
       "jsx": "react-jsx",
       "allowJs": true,
       "moduleResolution": "node",
-      // "baseUrl": ".",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["./src/*"],
+        "react": [ "./node_modules/@types/react" ]
+      },
       // esModuleInterop позволяет работать с пакетами, котоыре используют common js как с обаычными пакетами с помощью (import require() module.export) = common js
       // import Moment from 'moment';
       // без флага esmoduleinterop результат undefined
