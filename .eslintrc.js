@@ -5,7 +5,8 @@ module.exports = {
     },
     "extends": [
         "standard-with-typescript",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:i18next/recommended"
     ],
     "overrides": [
         {
@@ -26,7 +27,9 @@ module.exports = {
         "project": "tsconfig.json"
     },
     "plugins": [
-        "react"
+        "react",
+        "@typescript-eslint",
+        "i18next",
     ],
     "rules": {
         "react/jsx-indent" : [2, 4],
@@ -50,5 +53,6 @@ module.exports = {
         '@typescript-eslint/no-floating-promises': 'off',
         '@typescript-eslint/naming-convention': 'off',
         'no-underscore-dangle': 'off',
+        'i18next/no-literal-string': ['error', {markupOnly: true}]
     }
 }
