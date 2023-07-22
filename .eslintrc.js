@@ -54,6 +54,9 @@ module.exports = {
         '@typescript-eslint/no-floating-promises': 'off',
         '@typescript-eslint/naming-convention': 'off',
         'no-underscore-dangle': 'off',
-        'i18next/no-literal-string': ['error', {markupOnly: true}]
+        'i18next/no-literal-string': ['error', {markupOnly: true}],
+        'max-len': ['error', { "ignoreComments": true}],
+        'no-trailing-spaces': 'off',
+        'padded-blocks': 'off'
     }
 }
