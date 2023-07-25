@@ -16,6 +16,7 @@ class ErrorBoundary
         this.state = { hasError: false }
     }
 
+    // eslint-disable-next-line n/handle-callback-err
     static getDerivedStateFromError (error: Error) {
         // Update state so the next render will show the fallback UI.
         return { hasError: true }
@@ -38,7 +39,7 @@ class ErrorBoundary
             )
         }
 
-        return this.props.children
+        return children
     }
 }
 
