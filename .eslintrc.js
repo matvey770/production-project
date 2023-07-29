@@ -49,8 +49,7 @@ module.exports = {
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
-        'linebreak-style': 'off',
-        semi: 'off',
+        'no-trailing-spaces': 'off',
     },
     globals: {
         __IS_DEV__: true,

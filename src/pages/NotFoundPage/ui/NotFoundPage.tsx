@@ -4,10 +4,9 @@ import cls from './NotFoundPage.module.scss';
 
 interface NotFoundPageProps {
     className?: string;
-    backgroundColor?: string
 }
 
-export const NotFoundPage = ({ className, backgroundColor }: NotFoundPageProps) => {
+export const NotFoundPage = ({ className }: NotFoundPageProps) => {
     const { t } = useTranslation();
     return (
         <div className={classNames(cls.NotFoundPage, {}, [className])}>
