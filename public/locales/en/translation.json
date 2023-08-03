@@ -14,5 +14,7 @@
   "Переключить": "Toggle",
   "Войти": "Login",
   "INC": "increment",
-  "DEC": "decrement"
+  "DEC": "decrement",
+  "Введите username": "Type username",
+  "Введите пароль": "Type password"
 }
