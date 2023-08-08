@@ -16,5 +16,8 @@
   "INC": "increment",
   "DEC": "decrement",
   "Введите username": "Type username",
-  "Введите пароль": "Type password"
+  "Введите пароль": "Type password",
+  "Форма авторизации": "Authorization form",
+  "Вы ввели неверный логин или пароль": "Wrong username or password",
+  "Выйти": "Log out"
 }
