@@ -59,10 +59,13 @@ module.exports = {
         semi: 'off',
         'no-param-reassign': 'off',
         'no-undef': 'off',
+        'object-curly-newline': 'off',
+        'consistent-return': 'off',
     },
     globals: {
         __IS_DEV__: true,
         __API__: true,
+        __PROJECT__: true,
     },
     overrides: [
         {

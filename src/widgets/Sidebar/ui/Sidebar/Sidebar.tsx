@@ -4,14 +4,15 @@ import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
 import { LangSwitcher } from 'shared/ui/LangSwitcher/LangSwitcher';
 import { Button, ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
 import cls from './Sidebar.module.scss';
-import { SideBarItemsList } from '../../model/items';
+import { SideBarItemsList, SidebarItemType } from '../../model/items';
 import { SideBarItem } from '../SidebarItem/SideBarItem';
 
 interface SidebarProps {
+    item?: SidebarItemType
     className?: string;
 }
 
-export const Sidebar = memo(({ className }: SidebarProps) => {
+export const Sidebar = memo(({ item, className }: SidebarProps) => {
     const [collapsed, setCollapsed] = useState(false);
 
     const onToggle = () => {
