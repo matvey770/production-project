@@ -1,9 +1,9 @@
 import { classNames } from 'shared/lib/classNames/classNames'
 import { useTranslation } from 'react-i18next'
-import cls from './CommentList.module.scss'
-import { memo } from 'react'
-import { CommentCard } from '../CommentCard/CommentCard'
 import { Text } from 'shared/ui/Text/Text'
+import { memo } from 'react'
+import cls from './CommentList.module.scss'
+import { CommentCard } from '../CommentCard/CommentCard'
 import { Comment } from '../../model/types/comment'
 
 interface CommentListProps {
@@ -18,7 +18,7 @@ export const CommentList = memo((props: CommentListProps) => {
     return (
         <div className={classNames(cls.CommentList, {}, [className])}>
             {comments?.length
-                ? comments.map(comment => (
+                ? comments.map((comment) => (
                     <CommentCard
                         isLoading={isLoading}
                         className={cls.comment}

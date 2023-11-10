@@ -10,6 +10,7 @@ interface ArticlesPageProps {
 const ArticlesPage = ({ className }: ArticlesPageProps) => {
     const { t } = useTranslation()
     return (
+        // eslint-disable-next-line i18next/no-literal-string
         <div className={classNames(cls.ArticlePage, {}, [className])}>
             ARTICLES PAGE
         </div>
