@@ -112,6 +112,24 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "hVL74WD"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "1",
+      "id": "N3oV_Ie"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "fgsdfsdfsdf",
+      "id": "aleRVzc"
     }
   ],
   "users": [
@@ -130,14 +148,28 @@
       "avatar": "https://yt3.googleusercontent.com/nWyjyuyr1rte3OPOc8V6TE9_DJdER3SdTGza1z2WdT64S8vGrDMaYrSIyvmOjJ3xbUCAgPxr-ic=s900-c-k-c0x00ffffff-no-rj"
     }
   ],
-  "profile": {
-    "first": "Матвей",
-    "lastname": "Смирнов",
-    "age": 25,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Москва",
-    "username": "admin",
-    "avatar": "https://upload.wikimedia.org/wikipedia/tr/2/20/Doom-Shroom.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Матвей",
+      "lastname": "Смирнов",
+      "age": 25,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Москва",
+      "username": "admin",
+      "avatar": "https://upload.wikimedia.org/wikipedia/tr/2/20/Doom-Shroom.jpg"
+    },
+    {
+      "id": "2",
+      "first": "Матвей",
+      "lastname": "Смирнов",
+      "age": 22,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Москва",
+      "username": "freeze",
+      "avatar": "https://yt3.googleusercontent.com/nWyjyuyr1rte3OPOc8V6TE9_DJdER3SdTGza1z2WdT64S8vGrDMaYrSIyvmOjJ3xbUCAgPxr-ic=s900-c-k-c0x00ffffff-no-rj"
+    }
+  ]
 }
