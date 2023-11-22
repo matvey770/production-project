@@ -61,6 +61,7 @@ module.exports = {
         'no-undef': 'off',
         'object-curly-newline': 'off',
         'consistent-return': 'off',
+        'react/no-array-index-key': 'off',
     },
     globals: {
         __IS_DEV__: true,

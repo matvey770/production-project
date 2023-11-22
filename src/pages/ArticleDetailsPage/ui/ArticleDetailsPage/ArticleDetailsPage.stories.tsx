@@ -24,6 +24,11 @@ const article: Article = {
     img: 'https://teknotower.com/wp-content/uploads/2020/11/js.png',
     views: 1022,
     createdAt: '26.02.2022',
+    user: {
+        id: '1',
+        username: 'Matvey',
+        avatar: 'https://upload.wikimedia.org/wikipedia/tr/2/20/Doom-Shroom.jpg',
+    },
     type: [ArticleType.IT],
     blocks: [
         {
